@@ -1,0 +1,16 @@
+8a and 8b
+DP
+OOPs1 , SnQ 	
+OOPs2, Dynamic SnQ
+OOPs3, LL
+OOPs4, Generic LL
+OOPs5, LL Quests
+Generic Tree
+Binary Tree
+BST
+HashTable 
+Graph - 2
+Heap
+Trie
+Game
+
