@@ -1,0 +1,63 @@
+.uparwalaparent{
+    height: 30vh;
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) , url(http://tables4you.net/wp-content/uploads/2016/10/position_3_coffee_table_with_laptop_platform_-view-here.jpg);
+    width: 100%;
+    margin: 0%;
+    /*background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)) , url(http://tables4you.net/wp-content/uploads/2016/10/position_3_coffee_table_with_laptop_platform_-view-here.jpg);*/
+    /*height: 85vh;*/
+    /*background-attachment: fixed;*/
+    /*background-position: top;*/
+    /*background-size: cover;*/
+    /*font-family: 'Raleway', sans-serif;*/
+    /*color: #f5f5f5;*/
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+.navigator{
+    height: 10vh;
+    position: fixed;
+    background-color: #4a148c;
+    width: 100%;
+}
+.nichewaleparent{
+    height:95vh;
+    width: 100%;
+    background-color: #90CAF9;
+    display: flex;
+}
+.left_wala_baxa{
+    height:inherit;
+    width: 20%;
+    background-color: #9c27b0;
+
+}
+.center_wala_baxa{
+    height: inherit;
+    width: 60%;
+    background-color: #d0d0d0;
+}
+.right_wala_baxa{
+    height: inherit;
+    width: 20%;
+    background-color: #8b1014;
+}
+.center_ka_bhi_upar{
+    width: 70%;
+    height: 30vh;
+    margin: 20% 10% 5%;
+    background-color: aquamarine;
+    display: block;
+}
+.center_ka_bhi_niche{
+    width: 70%;
+    height: 30vh;
+    margin: 1% 10% 5%;
+    background-color: #4a148c;
+    display: block;
+}
+/*.image_wala_baxa{*/
+    /*height: 20vh;*/
+    /*background-color: #ef9a9a;*/
+/*}*/

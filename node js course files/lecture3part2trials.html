@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Display proprties</title>
+	<style type="text/css">
+		.block{
+			height: 200px;
+			width: 100px;
+			display: block;
+			background: rgba(210,100,50,.5);
+		}
+		.inline{
+			height: 1000px;
+			display:inline;
+			background: brown;
+		}
+		.inline-block{
+			height: 200px;
+			width:500px;
+			display: inline-block;
+			background: orange;
+		}
+	</style>
+</head>
+<body>
+i am superman
+<!-- blockelemnt will come down a line because it starts to search the space from beginning of the line adn it sees occupied even htough it has space later side text it fails to utilise it. here comes float -->
+<div class="block">
+<div class="box1" style="background: blue; float: left;">Box1</div>
+<div class="box2" style="background: green;float: right;">Box2</div>
+<div class="box3" style="background: red;display: inline-block;">Box2</div><!-- if a gap is kept here(a line is switched a gap will created in display --><div class="box4" style="background: yellow;display: inline-block;">Box2</div>
+<!-- Random block text -->
+</div>
+i am batman
+<div class="inline">Random inline text</div>
+i am iron man
+
+<div class="inline-block" style="height: 20; overflow-y: auto;">Random inline text
+<div>
+i am hulk.i am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulki am hulk.
+</div>
+</div>
+</body>
+</html>

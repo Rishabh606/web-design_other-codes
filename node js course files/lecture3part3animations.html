@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>css3animations</title>
+	<style type="text/css">
+		div.box{
+			background-color: red;
+			width:40px;
+			height: 40px;
+			animation-name: bounce;
+			animation-duration: 4s;
+		    position:relative;
+			animation-iteration-count: infinite;
+		}
+		@keyframes bounce {
+
+		0%{
+			/*border-radius:0 0 0 0 ;*/
+			top:0;
+			left:0;
+		}
+		25%{
+			/*border-radius:50% 0 0 0 ;*/
+			transform: translateY(300px);
+
+					}
+		50%{
+			/*border-radius:50% 50% 0 0 ;
+			transform: rotate(180deg);
+			background-color: green;*/
+	       transform: translateY(150px);
+		}
+		
+		100%{
+			/*border-radius:50% 50% 50% 50% ;
+			transform: rotate(360deg);
+			background-color: red;*/
+		    transform: translateY(0);
+		}
+	}
+	</style>
+</head>
+<body>
+<div class="box"></div>
+</body>
+</html>

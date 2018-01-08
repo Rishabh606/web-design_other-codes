@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>shopping cards</title>
+</head>
+<body>
+<form action="http://localhost:5000/todos/insert" method="post">
+    <input type="text" name="task">
+    <input type="submit">
+</form>
+<div>
+    <ul>
+        {{#if todo}}
+        {{#each task}}
+            <li>{{this.task}}</li>
+        {{/each}}
+        {{/if}}
+    </ul>
+</div>
+</body>
+</html>

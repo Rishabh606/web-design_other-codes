@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style:none;
+    text-decoration:none;
+}
+/* <!-- navigation styling -->
+*/
+.nav{
+    top:0;
+    width:100%;
+    height:15vh;
+    background-color:white;
+    opacity:0.8;
+    position:fixed;
+    z-index:1000;
+}
+.nav ul{
+    display:inline-block;
+}
+.nav ul li{
+    float:left;
+    width:300px;
+    font-size:40px;
+    font:#009999;
+    text-transform:capitalize;
+    text-align:center;
+    padding-top:20px;
+    font-family:cursive;
+}
+.nav ul li:hover{
+    border-top:#099 solid 8px;
+  
+}
+.nav ul li a{
+    color:#099;
+}
+.nav ul li a:hover{
+    color:#033;
+}
+}
+.nav ul li a:hover {
+    color:#033;
+  
+}
+.nested  li {
+    display:none;
+    background-color:white;
+}
+
+
+.nav ul .onhover:hover .nested li{
+    display:block;
+    border:none;
+   
+}
+.nav ul .onhover:hover .nested li:hover{
+    background-color:#0ee;
+}
+/* <-- navigation bar styling ends here--> */
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxx */
+
+/* <--carousel starts here--> */
+.crsl{
+    margin-top:99px;
+    height:500px;
+    width:100%;
+    overflow:hidden;
+}
+.crsl figure{
+    width:300%;
+    float:left;
+    position:relative;
+    margin:0;
+    animation:30s slidy infinite ease;
+    left:0;
+}
+.crsl figure .slide{
+    width:33.3%;
+    float:left;
+}
+.crsl figure .slide img{
+    width:100%;
+    height:500px;
+}
+@keyframes slidy{
+    
+    0%{
+        left:0;
+    }
+    25%{
+        left:-100%;
+    }
+    50%{
+        left:-200%;
+    }
+    75%{
+        left:-100%;
+    }
+    100%{
+        left:0%;
+    }
+
+}
+/* <--carousel ends here --> */
+
+
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--this tag is most important for responsive web design.-->
+    <!--device-width tells you the width of device and intital scale allows you to change the ratio according to you.-->
+
+    <meta name = "viewport" content="width = device-width, initial-scale=1";>
+    <!--the break points can be made according to choice or hardcoded.-->
+    <!--you start from mobile size and increase size till scroll appears there is the first break point, one can do also reverse. That is start from big go to small-->
+    <!--but former approach is better (going from small to bigger is easier).-->
+    <!--Or you have to hardcode it. like- from 100px-200px this action, 200-400px this is the action. this is npt recommended.-->
+    <!--Media query is used to do this.-->
+    <!--Note the process to find breakpoint is to make note of pixels whenever scroll appears and handle it everytime.-->
+    <title>Basics-responsiveness</title>
+    <style>
+        @media screen and (min-width:600px) and (max-width:800px){
+            p{
+                color:red;
+                font-size: 20px;
+            }
+            /*max-width means before this value the below written properties will be applied.*/
+            /*min-width means after that specific value the written properties are applied,*/
+            /*Usually min-width is applied first and max-width is applied later.*/
+            /*@media screen and (min-width:700px){*/
+                /*p{*/
+                    /*color:blue;*/
+                    /*font-size: 15px;*/
+                /*}*/
+        }
+    </style>
+</head>
+<body>
+<p>lorem ipsum generator lorem ipsum generator lorem ipsum generator lorem ipsum generator
+    lorem ipsum generator lorem ipsum generator lorem ipsum generator lorem ipsum generator
+    lorem ipsum generator lorem ipsum generator lorem ipsum generator lorem ipsum generator
+</p>
+</body>
+</html>

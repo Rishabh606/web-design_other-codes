@@ -1,0 +1,50 @@
+body{
+    height: 100vh;
+    width: 100%;
+}
+.t1, .t2{
+    height:110vh;
+}
+@media screen and (max-width:600px){
+    .t1, .t2{
+        height:190vh;
+    }
+    .brand-logo{
+        margin-left: 0px;
+    }
+}
+.namer{
+    position: absolute;
+    left: 12.5%;
+    top: 66px;
+    width: 75%;
+    height: 300px !important;
+    opacity: 0.6;
+    margin:  auto;
+
+}
+.he1{
+
+    position: relative;
+    z-index: 2;
+    Font-family: Roboto, sans-serif;
+
+}
+.he2{
+    padding: 100px;
+    position: relative;
+    z-index: 2;
+    Font-family: Roboto, sans-serif;
+
+}
+.he3{
+    Font-family: Roboto, sans-serif;
+}
+
+/*form{*/
+    /*background-color: #ccc;*/
+/*}*/
+/*body {*/
+    /*background-color:#4db6ac;*/
+/*}*/
+

@@ -1,0 +1,58 @@
+.parent{
+    /*display-flex compels the system to adjust the all the boxes to fit in single line.*/
+    /*display-flex wrap tells the system to put it in same line till space allows then switch to next line*/
+    display: flex;
+    flex-wrap: wrap;
+    /*flex direction does the job of flex in coloumn area*/
+    /*flex-direction: column;*/
+    /*flex direction also has row reverse, coloumn reverse which revers the boxes showed in order*/
+    justify-content: center;
+    /*starts the boxes from center, if set to start, starts from left and right starts feom right. */
+    /*the basic advantage og whole flex is that automatially adjusts its location of boxes on chaging screen size.
+     no need to consider individual position of each box. */
+}
+*{
+    /*this shows combined size of cell pading+border else it will only show area accessible to user only. */
+    /*note that margin is excluded. */
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+.box1,.box2,.box3,.box4,.box5,.box6{
+    height: 100px;
+    width: 100px;
+    /*height: 100vh*/
+    /*this implies that height is 100% of screen size.*/
+}
+.box1{
+    background: blue;
+    /*dont ever set height in percentage but youcan set width in percentage. it takes percentage of parent width.
+    parent width means total width of all boxes*/
+    /*width: 60%;*/
+    /*order decides the order of boxes which come in. this eliminates the use of float, inline boxes to much extent*/
+    order:2;
+}
+.box2{
+    background: green;
+    /*if no order is given to other boxes except a few other will takes priority due to themhaving priority 0.  */
+    /*width: 40%;*/
+    order:1;
+}
+.box3{
+    background: red;
+    /*this will set size of box3 twice the size of box4 having flex-grow-1*/
+    flex-grow: 2;
+    order:4
+}
+.box4{
+    background: yellow;
+    flex-grow: 1;
+    order: 5;
+}
+.box5{
+    background: bisque;
+    order: 3;
+}
+/*if you need to showshomething in mobile you can set it yo 100% by media query. this will transfer side boxes in next line.*/

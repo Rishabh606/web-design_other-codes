@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Coding Blocks</title>
+    <meta name="viewport" content="width = device-width, initial-scale=1" ;>
+    <link rel="stylesheet" type="text/css"
+          href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="Materialize.css" rel="stylesheet" type="text/css">
+    <link href="Materialise_js.js" rel="script">
+    <link href="forms-task2.js" rel="script">
+    <link href="form-task2.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <nav>
+        <div class="nav-wrapper teal darken-2">
+            <a href="https://codingblocks.com/courses/algo++.html" class="brand-logo"><img src="cblogo.png"
+                                                                                           style='height: 9vh; object-fit: contain'/></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="sass.html">Other courses</a></li>
+                <li><a href="badges.html">faculty</a></li>
+                <li><a href="collapsible.html">login</a></li>
+            </ul>
+        </div>
+    </nav>
+   <div class=" m2 l2 card-panel teal lighten-2 t1" style="width: 12%;  display:inline-block;float: left"></div>
+    <div class="m2 l2 card-panel teal lighten-2 t2" style="width: 12%; display:inline-block;float: right"></div>
+        <div class="heading"  id="algoheader">
+        <h2 class="flow-text he1  teal-text text-darken-3" align="center"> Algo++(C++)</h2>
+        <h2 class="flow-text he2  teal-text text-darken-3" align="center">Advanced Algorithms and data structures</h2>
+        <img class=" responsive-img namer"  src="algo++CD.jpg">
+    </div>
+
+
+<div class="container">
+    <h1  class="flow-text he3 teal-text text-darken-3" align="center"> Admission Form</h1>
+    <div class="row" >
+        <form class="col s8 m10 l12 ">
+            <div class="row">
+                <div class="input-field col s12 m6 l6">
+                    <i class="fa fa-user-circle-o prefix " aria-hidden="true"></i>
+                    <input placeholder="First Name" id="first_name" type="text" class="validate autocomplete">
+                    <label for="first_name" class="active">First Name</label>
+                </div>
+                <div class="input-field col s12 m6 l6">
+                    <i class="fa fa-user-circle-o prefix" aria-hidden="true"></i>
+                    <input placeholder="Last Name" id="Last_name" type="text" class="validate autocomplete">
+                    <label for="Last_name" class="active">Last name</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12 m6 l6">
+                    <i class="fa fa-mobile-phone prefix"></i>
+                    <input placeholder="Mobile number" id="mobile" type="Tel" class="validate autocomplete">
+                    <label for="mobile" class="active">Mobile Number</label>
+                </div>
+                <div class="input-field col s12 m6 l6">
+                    <i class="fa fa-envelope prefix" aria-hidden="true">
+                    </i>
+                    <input placeholder="E-mail" id="email" type="text" class="validate autocomplete">
+                    <label for="email" class="active" data-error="wrong" data-success="right">Email</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12 m6 l6">
+                    <i class="fa fa-lock prefix"></i>
+                    <input placeholder="Password" id="password" type="password" class="validate autocomplete">
+                    <label for="password" class="active">Password</label>
+                </div>
+                <div class="input-field col s12 m6 l6">
+                    <i class="fa fa-lock prefix"></i>
+                    <input placeholder="Confirm Password" id="Confirm_password" type="password"
+                           class="validate autocomplete">
+                    <label for="Confirm_password" class="active">Confirm Password</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input-field col s12 m6 l6">
+                    <i class="fa fa-calendar prefix"></i>
+                    <input type="date" id="DOB" class="datepicker autocomplete">
+                    <label for="DOB" class="active">Date of birth</label>
+                </div>
+                <div class="input-field col s12 m6 l6">
+                    <!--<select>-->
+                    <!--<option value="" disabled selected>Choose your Center</option>-->
+                    <!--<option value="11">Online</option>-->
+                    <!--<option value="3">Gurgaon Centre</option>-->
+                    <!--<option value="2">Pitampura Centre</option>-->
+                    <!--<option value="4">Dwarka Centre</option>-->
+                    <!--<option value="5">STPL</option>-->
+                    <!--<option value="6">VSAT</option>-->
+                    <!--<option value="7">Greater Noida</option>-->
+                    <!--</select>-->
+                    <!--<label>Select your center</label>-->
+                </div>
+                <div class="col s12 m6 l6">
+                    <i style="font-size: 2rem;" class="fa fa-bicycle prefix"> <label
+                            style="font-family: Roboto, sans-serif;" for="centers" class="active">Choose your
+                        center</label></i>
+                    <form id="centers" action="#">
+                        <p>
+                            <input class="with-gap" name="group1" type="radio" id="test1"/>
+                            <label for="test1">Pitampura</label>
+                            <input class="with-gap" name="group1" type="radio" id="test2"/>
+                            <label for="test2">Dwarka</label>
+                            <input class="with-gap" name="group1" type="radio" id="test3"/>
+                            <label for="test3">Greater Noida</label>
+                            <input class="with-gap" name="group1" type="radio" id="test4"/>
+                            <label for="test4">Online</label>
+                        </p>
+                    </form>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
