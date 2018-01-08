@@ -1,0 +1,8 @@
+clc
+clear all
+close all
+x=(0:.01:6*pi);
+unitstep= x>=0;
+y=3*cos(2*pi*.x+pi/3)
+z=y.*
+plot(x,unitstep)
