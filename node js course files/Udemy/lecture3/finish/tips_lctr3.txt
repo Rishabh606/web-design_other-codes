@@ -1,0 +1,5 @@
+if you give the name of directory in require it will either
+look for index.js or flight.js (i.e. it looks for js file
+with same name as of directory)
+if you change name of index.js to flight.js, DO CHANGE
+the name in package.json too or it will throw error

@@ -1,0 +1,8 @@
+We talked about calling index.js from directory global variable and
+local variables(example2 and index)
+We talked about require (example 1 and announce)
+We talked about module.exports and how to make function using '.'
+Advantage is that we will write require only once in
+ the we are calling. (example3 and proclaim)
+Then we talked about how to check os type (example4)
+then  (event folder's server.js) we learned how to build our server

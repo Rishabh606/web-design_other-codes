@@ -38,7 +38,7 @@ app.get('/tasks',function (req,res) {
     res.send('')
 });
 app.get('/showcase',function (req,res) {
-    res.send(todolist);
+res.send(todolist);
 });
 //process.env.port checks for other ports if 4000 or givenport is not free
 app.listen(4000||process.env.port,function (response,err) {

@@ -1,0 +1,56 @@
+type nul> index.js   is used to create a newfile
+mkdir abc            is used to create a new directory
+cls                  is used to clear screen
+dir        shows all files present in the folder and their description
+
+
+npm init
+/*
+So we started with npm init to make a json file. Like git init
+makes a repository. npm init used to initialise a package. This json
+file contains info about this package
+*/
+
+npm install -g express  --this installs express globally
+//we generally dont intall packages globally
+
+npm intall -g express-generator
+/*if you want to create a new file directory/project
+having express modules by just typing express name
+(including other good cmds install express generator*/
+
+express air
+//this built another directory of name air already having
+//express module
+
+
+https://www.lemoda.net/windows/windows2unix/windows2unix.html
+//important- all linux/mac commands windows equivalent available
+
+go to air and type "npm install" it will install
+folder node modules
+
+npm start
+starts the server -
+open package.json in air directory and you will see "start"
+is key to "node ./bin/www" i.e. node ./bin/www can start your
+server. But npm start can also do the same.
+
+so open browser put "localhost:3000" and see express there
+the css file is there in public/stylesheets
+
+if you want to remove some folder then also remove it from
+dependency list in package.json also.
+Also If we remove it from package.json and want it
+to automatically remove itself from package
+use "npm prune"
+
+Similarly you want to add a dependency-
+1.Its better to go through command line like "npm install name"
+this will automatically update dependencies in package.json
+2.we can write dependecy (in proper format) directly
+in package.json and type-
+"npm update" on cmd line.
+This will also achieve the same effect but name
+and spelling should be correct. That is it will add
+dependencies mentioned package.json into package.
